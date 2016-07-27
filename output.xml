@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<content>
+    <nameEntityFile fileName="NER.txt">
+        <nameEntities>
+            <NameEntity>Ernst Haeckel</NameEntity>
+            <NameEntity>Franz Ferdinand</NameEntity>
+            <NameEntity>Gavrilo Princip</NameEntity>
+            <NameEntity>Germany</NameEntity>
+            <NameEntity>Austria-Hungary</NameEntity>
+            <NameEntity>Yugoslavia</NameEntity>
+            <NameEntity>Serbia</NameEntity>
+            <NameEntity>Sarajevo</NameEntity>
+            <NameEntity>Europe</NameEntity>
+            <NameEntity>Euclid</NameEntity>
+            <NameEntity>Elements</NameEntity>
+            <NameEntity>Venice</NameEntity>
+            <NameEntity>Carl Benjamin Boyer</NameEntity>
+            <NameEntity>Bible</NameEntity>
+            <NameEntity>Broyden–Fletcher–Goldfarb–Shanno</NameEntity>
+            <NameEntity>Newton</NameEntity>
+            <NameEntity>BFGS</NameEntity>
+            <NameEntity>Montgomery Castle</NameEntity>
+            <NameEntity>Powys</NameEntity>
+            <NameEntity>Wales</NameEntity>
+            <NameEntity>England</NameEntity>
+            <NameEntity>Roger de Montgomery</NameEntity>
+            <NameEntity>Robert of Belleme</NameEntity>
+            <NameEntity>King Henry III</NameEntity>
+            <NameEntity>Llywelyn ap Gruffudd</NameEntity>
+            <NameEntity>Prince of Wales</NameEntity>
+            <NameEntity>Shrewsbury</NameEntity>
+            <NameEntity>Antikythera</NameEntity>
+            <NameEntity>Olympic Games</NameEntity>
+            <NameEntity>Japan</NameEntity>
+            <NameEntity>North America</NameEntity>
+            <NameEntity>Sun Microsystems</NameEntity>
+            <NameEntity>Sun</NameEntity>
+            <NameEntity>Oracle Corporation</NameEntity>
+            <NameEntity>Apollo 11</NameEntity>
+            <NameEntity>Neil Armstrong</NameEntity>
+            <NameEntity>Buzz Aldrin</NameEntity>
+            <NameEntity>Michael Collins</NameEntity>
+            <NameEntity>Moon</NameEntity>
+            <NameEntity>Sea of Tranquility</NameEntity>
+            <NameEntity>Earth</NameEntity>
+            <NameEntity>Pacific Ocean</NameEntity>
+            <NameEntity>James Clerk Maxwell</NameEntity>
+            <NameEntity>Isaac Newton</NameEntity>
+            <NameEntity>Albert Einstein</NameEntity>
+        </nameEntities>
+    </nameEntityFile>
+    <sentenceFiles>
+        <sentenceFile fileName="d01.txt">
+            <sentenceMatches>
+                <SentenceMatch>
+                    <sentence>Euclid's Elements has been referred to as the most successful and influential textbook ever written.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Euclid</sentenceMatchingNoun>
+                        <sentenceMatchingNoun>Elements</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>First set in type in Venice in 1482, it is one of the very earliest mathematical works to be printed after the invention of the printing press and was estimated by Carl Benjamin Boyer to be second only to the Bible in the number of editions published, with the number reaching well over one thousand.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Venice</sentenceMatchingNoun>
+                        <sentenceMatchingNoun>Carl Benjamin Boyer</sentenceMatchingNoun>
+                        <sentenceMatchingNoun>Bible</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>For centuries, knowledge of at least part of the Elements was required of all students.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Elements</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>Not until the 20th century, by which time its content was universally taught through other school textbooks, did it cease to be considered something all educated people had read.</sentence>
+                    <sentenceMatchingNouns/>
+                </SentenceMatch>
+            </sentenceMatches>
+        </sentenceFile>
+        <sentenceFile fileName="d02.txt">
+            <sentenceMatches>
+                <SentenceMatch>
+                    <sentence>The Broyden–Fletcher–Goldfarb–Shanno (BFGS) algorithm is an iterative method for solving unconstrained nonlinear optimization problems.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Broyden–Fletcher–Goldfarb–Shanno</sentenceMatchingNoun>
+                        <sentenceMatchingNoun>BFGS</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>The BFGS method approximates Newton's method, a class of hill-climbing optimization techniques that seeks a stationary point of a (preferably twice continuously differentiable) function.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Newton</sentenceMatchingNoun>
+                        <sentenceMatchingNoun>BFGS</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>For such problems, a necessary condition for optimality is that the gradient be zero.</sentence>
+                    <sentenceMatchingNouns/>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>Newton's method and the BFGS methods are not guaranteed to converge unless the function has a quadratic Taylor expansion near an optimum.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Newton</sentenceMatchingNoun>
+                        <sentenceMatchingNoun>BFGS</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>These methods use both the first and second derivatives of the function.</sentence>
+                    <sentenceMatchingNouns/>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>However, BFGS has proven to have good performance even for non-smooth optimizations.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>BFGS</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+            </sentenceMatches>
+        </sentenceFile>
+        <sentenceFile fileName="d03.txt">
+            <sentenceMatches>
+                <SentenceMatch>
+                    <sentence>Montgomery Castle is a stone masonry castle looking over the town of Montgomery in Powys, Wales.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Montgomery Castle</sentenceMatchingNoun>
+                        <sentenceMatchingNoun>Powys</sentenceMatchingNoun>
+                        <sentenceMatchingNoun>Wales</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>It is one of many Norman castles on the border between Wales and England.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Wales</sentenceMatchingNoun>
+                        <sentenceMatchingNoun>England</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>The original castle was built at the order of Roger de Montgomery, earl of Shrewsbury sometime between 1071 and 1074.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Roger de Montgomery</sentenceMatchingNoun>
+                        <sentenceMatchingNoun>Shrewsbury</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>On the rebellion of his son Robert of Belleme in 1102, the castle was given to Baldwin de Boulers.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Robert of Belleme</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>In 1267 Montgomery was the meeting place for treaty negotiations, where King Henry III granted Llywelyn ap Gruffudd the title of Prince of Wales.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Wales</sentenceMatchingNoun>
+                        <sentenceMatchingNoun>King Henry III</sentenceMatchingNoun>
+                        <sentenceMatchingNoun>Llywelyn ap Gruffudd</sentenceMatchingNoun>
+                        <sentenceMatchingNoun>Prince of Wales</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>After 1295 and the final Welsh War of the thirteenth century the castle became more of a military backwater and prison than a front line fortress.</sentence>
+                    <sentenceMatchingNouns/>
+                </SentenceMatch>
+            </sentenceMatches>
+        </sentenceFile>
+        <sentenceFile fileName="d04.txt">
+            <sentenceMatches>
+                <SentenceMatch>
+                    <sentence>The Antikythera mechanism is an ancient analog computer designed to predict astronomical positions and eclipses for calendrical and astrological purposes, as well as the cycles of Olympic Games.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Antikythera</sentenceMatchingNoun>
+                        <sentenceMatchingNoun>Olympic Games</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>Found housed in a 340 × 180 × 90 mm wooden box, the device is a complex clockwork mechanism composed of at least 30 meshing bronze gears.</sentence>
+                    <sentenceMatchingNouns/>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>Its remains were found as 82 separate fragments, of which only seven contain any gears or significant inscriptions.</sentence>
+                    <sentenceMatchingNouns/>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>The largest gear is approximately 140 mm in diameter.</sentence>
+                    <sentenceMatchingNouns/>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>The artifact was recovered in 1901 from the Antikythera shipwreck off the Greek island of Antikythera.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Antikythera</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>Believed to have been designed and constructed by Greek scientists, the instrument has been dated either between 150 to 100 BC or, according to a more recent view, at 205 BC.</sentence>
+                    <sentenceMatchingNouns/>
+                </SentenceMatch>
+            </sentenceMatches>
+        </sentenceFile>
+        <sentenceFile fileName="d05.txt">
+            <sentenceMatches>
+                <SentenceMatch>
+                    <sentence>Horseshoe crabs are marine arthropods that live primarily in and around shallow ocean waters on soft sandy or muddy bottoms.</sentence>
+                    <sentenceMatchingNouns/>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>They occasionally come onto shore to mate.</sentence>
+                    <sentenceMatchingNouns/>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>They are commonly used as bait and in fertilizer.</sentence>
+                    <sentenceMatchingNouns/>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>In recent years, a decline in the population has occurred as a consequence of coastal habitat destruction in Japan and overharvesting along the east coast of North America.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Japan</sentenceMatchingNoun>
+                        <sentenceMatchingNoun>North America</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>Because of their origin 450 million years ago (Mya), horseshoe crabs are considered living fossils.</sentence>
+                    <sentenceMatchingNouns/>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>Horseshoe crabs resemble crustaceans, but belong to a separate subphylum, and are closely related to arachnids.</sentence>
+                    <sentenceMatchingNouns/>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>The earliest horseshoe crab fossils are found in strata from the late Ordovician period, roughly 450 Mya.</sentence>
+                    <sentenceMatchingNouns/>
+                </SentenceMatch>
+            </sentenceMatches>
+        </sentenceFile>
+        <sentenceFile fileName="d06.txt">
+            <sentenceMatches>
+                <SentenceMatch>
+                    <sentence>A differentiable manifold is a type of manifold that is locally similar enough to a linear space to allow one to do calculus.</sentence>
+                    <sentenceMatchingNouns/>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>Any manifold can be described by a collection of charts, also known as an atlas.</sentence>
+                    <sentenceMatchingNouns/>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>One may then apply ideas from calculus while working within the individual charts, since each chart lies within a linear space to which the usual rules of calculus apply.</sentence>
+                    <sentenceMatchingNouns/>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>If the charts are suitably compatible (namely, the transition from one chart to another is differentiable), then computations done in one chart are valid in any other differentiable chart.</sentence>
+                    <sentenceMatchingNouns/>
+                </SentenceMatch>
+            </sentenceMatches>
+        </sentenceFile>
+        <sentenceFile fileName="d07.txt">
+            <sentenceMatches>
+                <SentenceMatch>
+                    <sentence>Sun Microsystems, Inc. was a company that sold computers, computer components, computer software, and information technology services and that created the Java programming language and the Network File System (NFS).</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Sun Microsystems</sentenceMatchingNoun>
+                        <sentenceMatchingNoun>Sun</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>Sun significantly evolved several key computing technologies, among them Unix, RISC processors, thin client computing, and virtualized computing.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Sun</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>Sun was founded on February 24, 1982.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Sun</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>On January 27, 2010, Sun was acquired by Oracle Corporation for US $7.4 billion.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Sun</sentenceMatchingNoun>
+                        <sentenceMatchingNoun>Oracle Corporation</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>The following month, Sun was merged with Oracle USA, Inc. to become Oracle America, Inc.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Sun</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+            </sentenceMatches>
+        </sentenceFile>
+        <sentenceFile fileName="d08.txt">
+            <sentenceMatches>
+                <SentenceMatch>
+                    <sentence>Apollo 11 was the spaceflight that landed the first humans on the Moon, Americans Neil Armstrong and Buzz Aldrin, on July 20, 1969.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Apollo 11</sentenceMatchingNoun>
+                        <sentenceMatchingNoun>Neil Armstrong</sentenceMatchingNoun>
+                        <sentenceMatchingNoun>Buzz Aldrin</sentenceMatchingNoun>
+                        <sentenceMatchingNoun>Moon</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>Armstrong became the first to step onto the lunar surface six hours later.</sentence>
+                    <sentenceMatchingNouns/>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>Armstrong spent about two and a half hours outside the spacecraft, Aldrin slightly less, and together they collected 47.5 pounds (21.5 kg) of lunar material for return to Earth.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Earth</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>The third member of the mission, Michael Collins, piloted the command spacecraft alone in lunar orbit until Armstrong and Aldrin returned to it just under a day later for the trip back to Earth.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Michael Collins</sentenceMatchingNoun>
+                        <sentenceMatchingNoun>Earth</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+            </sentenceMatches>
+        </sentenceFile>
+        <sentenceFile fileName="d09.txt">
+            <sentenceMatches>
+                <SentenceMatch>
+                    <sentence>The Apollo spacecraft had three parts: a Command Module with a cabin for the three astronauts, and the only part that landed back on Earth; a Service Module, which supported the Command Module with propulsion, electrical power, oxygen, and water; and a Lunar Module for landing on the Moon.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Moon</sentenceMatchingNoun>
+                        <sentenceMatchingNoun>Earth</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>After being sent toward the Moon by the Saturn V's upper stage, the astronauts separated the spacecraft from it and traveled for three days until they entered into lunar orbit.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Moon</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>Armstrong and Aldrin then moved into the Lunar Module and landed in the Sea of Tranquility.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Sea of Tranquility</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>They stayed a total of about 21.5 hours on the lunar surface.</sentence>
+                    <sentenceMatchingNouns/>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>After lifting off in the upper part of the Lunar Module and rejoining Collins in the Command Module, they returned to Earth and landed in the Pacific Ocean on July 24.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Earth</sentenceMatchingNoun>
+                        <sentenceMatchingNoun>Pacific Ocean</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+            </sentenceMatches>
+        </sentenceFile>
+        <sentenceFile fileName="d10.txt">
+            <sentenceMatches>
+                <SentenceMatch>
+                    <sentence>James Clerk Maxwell was a Scottish mathematical physicist.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>James Clerk Maxwell</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>His most notable achievement was to formulate the classical theory of electromagnetic radiation, bringing together for the first time electricity, magnetism, and light as manifestations of the same phenomenon.</sentence>
+                    <sentenceMatchingNouns/>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>Maxwell's equations for electromagnetism have been called the "second great unification in physics" after the first one realised by Isaac Newton... Maxwell demonstrated that electric and magnetic fields travel through space as waves moving at the speed of light.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Newton</sentenceMatchingNoun>
+                        <sentenceMatchingNoun>Isaac Newton</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>Maxwell proposed that light is an undulation in the same medium that is the cause of electric and magnetic phenomena.</sentence>
+                    <sentenceMatchingNouns/>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>The unification of light and electrical phenomena led to the prediction of the existence of radio waves.</sentence>
+                    <sentenceMatchingNouns/>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>His discoveries helped usher in the era of modern physics, laying the foundation for such fields as special relativity and quantum mechanics.</sentence>
+                    <sentenceMatchingNouns/>
+                </SentenceMatch>
+                <SentenceMatch>
+                    <sentence>His contributions to the science are considered by many to be of the same magnitude as those of Isaac Newton and Albert Einstein.</sentence>
+                    <sentenceMatchingNouns>
+                        <sentenceMatchingNoun>Newton</sentenceMatchingNoun>
+                        <sentenceMatchingNoun>Isaac Newton</sentenceMatchingNoun>
+                        <sentenceMatchingNoun>Albert Einstein</sentenceMatchingNoun>
+                    </sentenceMatchingNouns>
+                </SentenceMatch>
+            </sentenceMatches>
+        </sentenceFile>
+    </sentenceFiles>
+</content>
