@@ -1,0 +1,27 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+
+mainClassName = 'com.Service'
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Sentence Processor',
+                'Main-Class': mainClassName
+    }
+    baseName 'com'
+}
+
+distZip {
+    // Ensure task provides same output regardless of environment by setting property used in naming output
+    archiveName "sentence_processor.zip"
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
